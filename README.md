@@ -40,7 +40,7 @@ The above command will provide some basic descriptions of the provided command-l
 
 ## Plotting Matlab experiments
 
-The Matlab experiments use both the Matlab optimization toolbox and the python interface for Matlab. These components are not free and have to be installed separately. Please see the [Matlab Documentation] (https://www.mathworks.com/products/matlab.html) for instructions.
+The Matlab experiments use both the Matlab optimization toolbox and the python interface for Matlab. These components are not free and have to be installed separately. Please see the [Matlab Documentation](https://www.mathworks.com/products/matlab.html) for instructions.
 
 ```matlab_cl
 python matlab_cl.py --path='<Path to saved data >' 
