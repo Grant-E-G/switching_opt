@@ -1,5 +1,3 @@
->📋  A template README.md for code accompanying a Machine Learning paper
-
 # Learning to Switch Optimizers for Quadratic Programming
 
 This repository is the official implementation of [Learning to Switch Optimizers for Quadratic Programming](https://google.com). 
@@ -66,4 +64,4 @@ Our pre-trained models are include in our agent subdirectory.
 
 ## Contributing
 
->📋  Pick a licence and describe how to contribute to your code repository. 
+
