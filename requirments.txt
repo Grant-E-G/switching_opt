@@ -1,0 +1,12 @@
+gym==0.17.2
+matplotlib==3.2.2
+numpy==1.20.2
+PyYAML==5.3.1
+scipy==1.4.1
+stable-baselines==2.10.1
+tabulate==0.8.7
+tensorboard==1.15.0
+tensorboard-plugin-wit==1.7.0
+tensorboardX==2.0
+tensorflow==1.15.0
+tensorflow-estimator==1.15.1

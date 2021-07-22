@@ -1,0 +1,37 @@
+Basepath: /home/username/SO_data/
+TF_logpath: TF/ppo2_MlpRandAdam_sqe/
+env_config:
+  Memory_depth: 10
+  bound: 10.0
+  dim:
+  - 5
+  - 10
+  - 15
+  - 25
+  num_steps: 100
+  old_A_style: false
+  switching_style: RandAdam
+num_cpus: 100
+plot_dims:
+- 5
+- 7
+- 10
+- 12
+- 15
+- 18
+- 20
+- 25
+- 30
+- 40
+- 50
+- 60
+- 70
+- 80
+- 90
+- 100
+savetag: RandAdam_mem_5_v4_re
+plot_tag: Adam & Random retrained
+total_timesteps: 80000000
+ppo2_nsteps: 10000
+policy_kwargs:
+  net_arch: [64,64,64]

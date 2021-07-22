@@ -1,0 +1,26 @@
+Basepath: /home/username/SO_data/
+TF_logpath: TF/ppo2_MlpLnLstmPolicy_sqe/
+env_config:
+  Memory_depth: 5
+  bound: 10.0
+  dim:
+  - 5
+  - 10
+  - 15
+  num_steps: 100
+  old_A_style: false
+  switching_style: All
+num_cpus: 40
+plot_dims:
+- 10
+- 20
+- 30
+- 40
+- 50
+- 60
+- 70
+- 80
+- 90
+- 100
+savetag: All_mem_5
+total_timesteps: 40000000
