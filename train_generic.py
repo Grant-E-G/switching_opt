@@ -671,7 +671,7 @@ def update_score(pickle_tuple):
         run_means = np.mean(x, axis=1)
         size = max(run_means.shape)
         total_score = np.mean(run_means)
-        std = np.sqrt(np.var(run_means) * (size / (size - 1)))
+        std = np.sqrt(np.var(run_means) * (size / (size - 1))) #biased std
         return_list.append((total_score, std))
     return return_list
 
